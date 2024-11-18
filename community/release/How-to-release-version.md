@@ -1,6 +1,6 @@
 ---
-id: 'how_to_release_version_2.1.x'
-title: How to Release Version 2.1.x
+id: 'how_to_release_version'
+title: How to Release Version
 sidebar_position: 4
 ---
 
