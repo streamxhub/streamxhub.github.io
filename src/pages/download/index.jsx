@@ -53,12 +53,12 @@ export default function () {
           <li> {dataSource.verifyStep1} </li>
           <pre> gpg --import KEYS </pre>
 
-          <li> Verify the signature of the release artifact using the following command: </li>
+          <li> {dataSource.verifyStep2} </li>
           <pre>
             gpg --verify apache-streampark-***.asc apache-streampark-***.tar.gz
           </pre>
 
-          <li> You will need to download both the release artifact and the .sha512 checksum file for that artifact. Then verify the checksum by:</li>
+          <li> {dataSource.verifyStep2} </li>
           <pre>
             sha512sum --check apache-streampark-***.sha512
           </pre>
