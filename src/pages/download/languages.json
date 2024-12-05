@@ -17,10 +17,10 @@
     },
     "releaseNotes": "发布记录",
     "verifyReleases": "验证发版",
-    "verifyDesc": "你需要使用 PGP 或 SHA 签名验证下载文件的完整性。请下载 KEYS 以及 .asc/.sha512 签名文件以供相关验证，下载文件后，你应该验证相关签名，并确保它与我们的签名一致",
+    "verifyDesc": "你需要使用 PGP 或 SHA 签名验证下载文件的完整性，请下载 KEYS 以及 .asc/.sha512 签名文件以供相关验证，下载文件后，你应该验证相关签名，并确保它与我们的签名一致。",
     "downloadText": "下载",
     "verifyDesc1": "以及带有 .asc 签名的文件，然后按照下面的步骤进行验证",
-    "verifyStep1": "将 KEYS 文件导入到你的 GPG 密钥",
+    "verifyStep1": "将 KEYS 文件导入到你的 GPG 密钥：",
     "verifyStep2": "使用以下命令验证发布文件的签名：",
     "verifyStep3": "你需要下载发布文件和该文件的 .sha512 文件。然后通过以下命令进行验证："
   },
