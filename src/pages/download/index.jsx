@@ -58,7 +58,7 @@ export default function () {
             gpg --verify apache-streampark-***.asc apache-streampark-***.tar.gz
           </pre>
 
-          <li> {dataSource.verifyStep2} </li>
+          <li> {dataSource.verifyStep3} </li>
           <pre>
             sha512sum --check apache-streampark-***.sha512
           </pre>
