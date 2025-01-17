@@ -39,11 +39,6 @@ export default function () {
                       className="d-flex flex-column align-items-center"
                       style={{ width: 'max-content' }}
                     >
-                      <div className="text-right" style={{ width: '100%' }}>
-                        <span className="badge incubating fs-6 tag">
-                          Incubating
-                        </span>
-                      </div>
                       <span className="project_title">
                         Apache StreamPark<span className="tm">™</span>
                       </span>
@@ -57,7 +52,7 @@ export default function () {
                   <div>
                     <a
                       className="btn streampark-btn btn mt-30 ztop"
-                      href="https://github.com/apache/incubator-streampark"
+                      href="https://github.com/apache/streampark"
                       target="_blank"
                     >
                       <i className="lni-github-original"></i>&nbsp;GitHub

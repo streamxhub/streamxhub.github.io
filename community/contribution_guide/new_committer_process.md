@@ -77,7 +77,7 @@ This is a formal vote about inviting ${NEW_COMMITTER_NAME} as our new committer.
 
 ${Work list}[1]
 
-[1] https://github.com/apache/incubator-streampark/commits?author=${NEW_COMMITTER_NAME}
+[1] https://github.com/apache/streampark/commits?author=${NEW_COMMITTER_NAME}
 ```
 
 Note that, Voting ends one week from today, i.e. 

@@ -75,7 +75,7 @@ This is a formal vote about inviting ${NEW_PMC_NAME} as our new PMC member.
 
 ${Work list}[1]
 
-[1] https://github.com/apache/incubator-streampark/commits?author=${NEW_PMC_NAME}
+[1] https://github.com/apache/streampark/commits?author=${NEW_PMC_NAME}
 ```
 
 Note that, Voting ends one week from today, i.e. [midnight UTC on YYYY-MM-DD](https://www.timeanddate.com/counters/customcounter.html?year=YYYY&month=MM&day=DD)
@@ -281,5 +281,5 @@ submission process. This should enable better productivity.
 A PPMC member helps manage and guide the direction of the project.
 
 Thanks,
-On behalf of the Apache StreamPark (Incubating) PPMC
+On behalf of the Apache StreamPark PPMC
 ```

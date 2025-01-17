@@ -83,10 +83,10 @@ closed and transfer from [current SPIPs][current-SPIPs] to [past SPIPs][past-SPI
 
 * [[SPIP-1][Feature][Parent] Suggest add HA for StreamPark][SPIP-1]: Have multiple subtasks and Projects on it.
 
-[all-SPIPs]: https://github.com/apache/incubator-streampark/issues?q=is%3Aissue+label%3A%22SPIP%22+
-[current-SPIPs]: https://github.com/apache/incubator-streampark/issues?q=is%3Aissue+is%3Aopen+label%3A%22SPIP%22
-[past-SPIPs]: https://github.com/apache/incubator-streampark/issues?q=is%3Aissue+is%3Aclosed+label%3A%22SPIP%22+
-[github-issue-choose]: https://github.com/apache/incubator-streampark/issues/new/choose
+[all-SPIPs]: https://github.com/apache/streampark/issues?q=is%3Aissue+label%3A%22SPIP%22+
+[current-SPIPs]: https://github.com/apache/streampark/issues?q=is%3Aissue+is%3Aopen+label%3A%22SPIP%22
+[past-SPIPs]: https://github.com/apache/streampark/issues?q=is%3Aissue+is%3Aclosed+label%3A%22SPIP%22+
+[github-issue-choose]: https://github.com/apache/streampark/issues/new/choose
 [mail-to-dev]: mailto:dev@streampark.apache.org
-[SPIP-1]: https://github.com/apache/incubator-streampark/issues/3905
+[SPIP-1]: https://github.com/apache/streampark/issues/3905
 

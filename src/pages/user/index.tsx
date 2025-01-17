@@ -97,7 +97,7 @@ function BrandCard({ img, aosDelay }: BrandCardProps) {
       onMouseLeave={handleMouseLevel}
     >
       <a
-        href={'https://github.com/apache/incubator-streampark/issues/163#issuecomment-'.concat(
+        href={'https://github.com/apache/streampark/issues/163#issuecomment-'.concat(
           img.linkid,
         )}
         target="_blank"

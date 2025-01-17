@@ -113,7 +113,7 @@ StreamPark 还有更加完善的作业操作记录，对于一些提交时异常
 ### **华为云与开源 Hadoop 存在兼容问题**
 
 我们的作业都是 Flink on Yarn 模式，部署在华为云。在使用 StreamPark 部署作业的过程中发现作业可以成功部署到华为 Hadoop 集群，但是获取作业状态信息时请求 Yarn ResourceManager 被拒绝，我们及时和社区沟通，寻求解决方案，并且记录了 issue:
-https://github.com/apache/incubator-streampark/issues/3566
+https://github.com/apache/streampark/issues/3566
 
 最后在社区 PMC 成员华杰老师和华为云同学的协助下，成功解决了问题：由于云产品本身内部的安全认证机制导致 StreamPark 无法正常访问云 ResourceManager。
 

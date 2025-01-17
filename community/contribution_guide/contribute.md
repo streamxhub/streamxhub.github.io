@@ -3,7 +3,7 @@
 First of all, thank you very much for choosing and using StreamPark, and welcome to join the StreamPark family!
 
 We encourage any form of participation in the community that will eventually become Committer or PPMC Such as:
-* Problems will be encountered via github on the [issue](https://github.com/apache/incubator-streampark/issues) form feedback out.
+* Problems will be encountered via github on the [issue](https://github.com/apache/streampark/issues) form feedback out.
 * Answer the issue questions that others are asking.
 * Help improve the documentation.
 * Help your project add test cases.
@@ -31,7 +31,7 @@ Refer to the [Submit Guide-Pull Request Notice](./pull-request.md), [Submit Guid
 
 If you want to implement a Feature or fix a Bug. Please refer to the following:
 
-* All bugs and the features are recommended and managed using the GitHub issues(https://github.com/apache/incubator-streampark/issues).
+* All bugs and the features are recommended and managed using the GitHub issues(https://github.com/apache/streampark/issues).
 * If you want to develop a Feature, first reply to the Issue associated with that feature, indicating that you are currently working on it. And set yourself a "deadline" when to Submit the Feature, and add it in the reply comment.
 * It's a good idea to find a mentor (or an instructor) in the core contributors who gives immediate feedback on design and functional implementation.
 * You should create a new branch to start your work, to get the name of the branch refer to the [Submit Guide-Pull Request Notice](./pull-request.md). For example, if you want to complete the feature and submit Issue 111, your branch name should be feature-111. The feature name can be determined after discussion with the instructor.

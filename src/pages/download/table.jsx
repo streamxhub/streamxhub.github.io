@@ -20,7 +20,7 @@ export default function (props) {
       .concat(version)
       .concat('/apache-streampark-')
       .concat(version)
-      .concat('-incubating-src.tar.gz')
+      .concat('-src.tar.gz')
       .concat('?action=download')
   }
 
@@ -32,7 +32,7 @@ export default function (props) {
             .concat(scala)
             .concat('-')
             .concat(version)
-            .concat('-incubating-bin.tar.gz')
+            .concat('-bin.tar.gz')
             .concat('?action=download')
     }
 
@@ -41,7 +41,7 @@ export default function (props) {
     return prefix.concat(version)
       .concat('/apache-streampark-')
       .concat(version)
-      .concat('-incubating-src.tar.gz')
+      .concat('-src.tar.gz')
       .concat(suffix)
   }
 
@@ -53,7 +53,7 @@ export default function (props) {
       .concat(scala)
       .concat('-')
       .concat(version)
-      .concat('-incubating-bin.tar.gz')
+      .concat('-bin.tar.gz')
       .concat(suffix)
   }
 
@@ -72,12 +72,12 @@ export default function (props) {
         sha512: getSourceSigs(version, '.sha512')
       },
       binary: [{
-        name: 'apache-streampark_2.12-' + version + '-incubating-bin.tar.gz',
+        name: 'apache-streampark_2.12-' + version + '-bin.tar.gz',
         url: getBinaryLink('2.12', version),
         signature: getBinarySigs('2.12', version, '.asc'),
         sha512: getBinarySigs('2.12', version, '.sha512')
       }, {
-        name: 'apache-streampark_2.11-' + version + '-incubating-bin.tar.gz',
+        name: 'apache-streampark_2.11-' + version + '-bin.tar.gz',
         url: getBinaryLink('2.11', version),
         signature: getBinarySigs('2.11', version, '.asc'),
         sha512: getBinarySigs('2.11', version, '.sha512')
