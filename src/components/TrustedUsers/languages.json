@@ -30,12 +30,12 @@
       {
         "title": "流批一体",
         "icon": "lni-shuffle",
-        "details": "Apache StreamPark™  同时支持 Apache Flink® & Apache Spark™，无缝支持流式处理和批处理，连接互通，创造无限可能。"
+        "details": "Apache StreamPark™ 同时支持 Apache Flink® & Apache Spark™，无缝支持流式处理和批处理，连接互通，创造无限可能。"
       },
       {
         "title": "一站式解决方案",
         "icon": "lni-display-alt",
-        "details": "Apache StreamPark™  为流处理作业提供全生命周期支持，从开发到部署，集等众多功能于一身，是一站式流处理平台。"
+        "details": "Apache StreamPark™ 为流处理作业提供全生命周期支持，从开发到部署，集等众多功能于一身，是一站式流处理平台。"
       }
     ],
     "development": [

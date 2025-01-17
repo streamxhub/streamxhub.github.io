@@ -5,7 +5,7 @@
 [English](README.md) | [中文](README_ZH.md)
 
 This is the repository containing all the source code of `http://streampark.apache.org`.
-This guide will guide you how to contribute to the Apache StreamPark™  website.
+This guide will guide you how to contribute to the Apache StreamPark™ website.
 
 ## Branch
 

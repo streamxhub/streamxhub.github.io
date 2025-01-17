@@ -4,7 +4,7 @@
 
 [English](README.md) | [中文](README_ZH.md)
 
-这是包含 `http://streampark.apache.org` 的所有源代码的存储库。本指南将指导您如何为 Apache StreamPark™  的网站做出贡献。
+这是包含 `http://streampark.apache.org` 的所有源代码的存储库。本指南将指导您如何为 Apache StreamPark™ 的网站做出贡献。
 
 ## 分支
 
