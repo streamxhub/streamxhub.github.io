@@ -1,25 +1,19 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import TopWaveImage from '@site/static/home/wave-top.svg';
 import BottomWaveImage from '@site/static/home/wave-buttom.svg';
 import BannerTitle from '@site/src/components/BannerTitle';
-import Button from '@site/src/components/Button';
 import GetStartButton from '@site/src/components/Button/GetStart';
 import GitHubButton from '@site/src/components/Button/GitHub';
 import config from './languages.json';
 
-// import Hero from './hero';
-// import Feature from './feature';
-// import Performance from './performance';
 import TrustedUsers from '@site/src/components/TrustedUsers';
 import ShellCommand from '@site/src/components/ShellCommand';
 import SectionTitle from '@site/src/components/SectionTitle';
 import FeatureCard from '@site/src/components/FeatureCard';
 import Development from '@site/src/components/Development';
-import ScreenMonitor from '@site/src/components/ScreenMonitor';
 import AchievementBanner from '@site/src/components/AchievementBanner';
 import Browser from '@site/src/components/MacBrowser';
 import { useTranslation } from '@site/src/hooks/useTranslation';
@@ -30,7 +24,7 @@ import BannerVideo from '@site/src/components/BannerVideo';
 export default function HomePage() {
   const INSTALL_COMMAND = `curl -L https://streampark.apache.org/quickstart.sh | sh`;
 
-  const { t, language } = useTranslation(config);
+  const { t } = useTranslation(config);
 
   useEffect(() => {
     AOS.init({

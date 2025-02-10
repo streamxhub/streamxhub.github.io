@@ -48,8 +48,8 @@ export default function TrustedUsers() {
                   <img
                     src={
                       colorMode === 'dark'
-                        ? useBaseUrl('/home/brands/plain/' + img.imgUrl)
-                        : useBaseUrl('/home/brands/colorful/' + img.imgUrl)
+                        ? useBaseUrl('/home/user/dark/' + img.imgUrl)
+                        : useBaseUrl('/home/user/light/' + img.imgUrl)
                     }
                     alt={img.imgUrl}
                   />
@@ -74,8 +74,8 @@ export default function TrustedUsers() {
                   <img
                     src={
                       colorMode === 'dark'
-                        ? useBaseUrl('/home/brands/plain/' + img.imgUrl)
-                        : useBaseUrl('/home/brands/colorful/' + img.imgUrl)
+                        ? useBaseUrl('/home/user/dark/' + img.imgUrl)
+                        : useBaseUrl('/home/user/light/' + img.imgUrl)
                     }
                     alt={img.imgUrl}
                   />
