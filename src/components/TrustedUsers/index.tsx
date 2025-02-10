@@ -18,8 +18,6 @@ export default function TrustedUsers() {
 
   const { colorMode } = useColorMode();
 
-  // const row1 = images.slice(0, images.length / 2);
-  // const row2 = images.slice(images.length / 2);
 
   const gradientColor = colorMode === 'dark' ? '#1f1f1c' : '#fff';
 

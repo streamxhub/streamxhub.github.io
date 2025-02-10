@@ -62,7 +62,7 @@ export default function () {
 }
 
 interface BrandCardProps {
-  img: { imgUrl: string; linkid: string };
+  img: { imgUrl: string };
   aosDelay: number;
 }
 
@@ -95,16 +95,9 @@ function BrandCard({ img, aosDelay }: BrandCardProps) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLevel}
     >
-      <a
-        href={'https://github.com/apache/streampark/issues/163#issuecomment-'.concat(
-          img.linkid,
-        )}
-        target="_blank"
-      >
-        <div className="case_item case_hover">
-          <img src={useBaseUrl(imgUrl)} alt={img.imgUrl} />
-        </div>
-      </a>
+      <div className="case_item case_hover">
+        <img src={useBaseUrl(imgUrl)} alt={img.imgUrl} />
+      </div>
     </div>
   );
 }
