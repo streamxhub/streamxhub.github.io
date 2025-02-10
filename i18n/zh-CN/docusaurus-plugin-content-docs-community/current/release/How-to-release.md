@@ -249,7 +249,7 @@ $ mvn --encrypt-password <apache passphrase>
 #### 3.2 克隆发布分支到本地
 
 ```shell
-git clone -b release-2.1.0-rc1 -c core.autocrlf=false git@github.com:apache/incubator-streampark.git
+git clone -b release-2.1.0-rc1 -c core.autocrlf=false git@github.com:apache/streampark.git
 ```
 
 #### 3.3 发布相关JAR到Apache Nexus
@@ -498,7 +498,7 @@ https://streampark.apache.org/community/release/how_to_verify_release
 
 How to Build:
 
-1.cd incubator-streampark
+1.cd streampark
 2.sh ./build.sh
 
 Thanks!
@@ -604,10 +604,10 @@ Steps to validate the release， Please refer to:
 How to Build:
 
 1) clone source code:
-> git clone -b v2.1.0-rc1 git@github.com:apache/incubator-streampark.git
+> git clone -b v2.1.0-rc1 git@github.com:apache/streampark.git
 
 2) build project:
-> cd incubator-streampark && sh ./build.sh
+> cd streampark && sh ./build.sh
 
 
 Thanks,
