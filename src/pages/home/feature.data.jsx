@@ -4,7 +4,7 @@ import {
   EasyIcon,
   EcosystemIcon,
   StableIcon,
-  StreamingIcon,
+  PlatformIcon,
   UnifiedIcon,
 } from './FeatureIcon';
 
@@ -17,13 +17,13 @@ export const featureCardStyle = {
     },
     icon: <DevelopmentIcon />,
   },
-  streaming: {
+  platform: {
     style: {
       '--feature-icon-color': 'rgb(173, 103, 247)',
       '--feature-icon-shadow': 'rgba(173, 103, 247, 0.2)',
       '--animation-delay': '1s',
     },
-    icon: <StreamingIcon />,
+    icon: <PlatformIcon />,
   },
   unified: {
     style: {

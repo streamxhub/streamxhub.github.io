@@ -28,7 +28,7 @@
         "details": "Apache StreamPark™ 提供流作业开发框架，旨在简化 Apache Flink® 和 Apache Spark™ 作业的开发流程。标准化了作业配置，内置大量快捷的API 和 即插即用的连接器，让用户只用关系核心业务开发，大幅降低流处理学习成本与开发难度。"
       },
       {
-        "id": "streaming",
+        "id": "platform",
         "title": "一站式实时计算平台",
         "details": "Apache StreamPark™ 提供强大的流作业操作管理平台，覆盖从开发调试、编译构建、部署上线到状态管理与恢复、运维操作的全生命周期。作为核心能力，它简化了流作业的管理流程，提升开发与运维效率，是一站式的流计算解决方案。"
       },
@@ -106,7 +106,7 @@
         "details": "Provides a framework to simplify Apache Flink® and Apache Spark™ application development, with plug-and-play connectors that reduce the learning curve and development complexity, improving efficiency."
       },
       {
-        "id": "streaming",
+        "id": "platform",
         "title": "Streaming Platform",
         "details": "Provides a streaming applications operation and management platform. It covers the entire lifecycle — from development and build, deployment and launch, state management and maintenance."
       },
