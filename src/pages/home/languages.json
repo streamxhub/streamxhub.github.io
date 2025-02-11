@@ -23,31 +23,37 @@
     },
     "feature": [
       {
+        "id": "development",
         "title": "流应用开发框架",
         "icon": "lni-layers",
         "details": "Apache StreamPark™ 提供了流作业开发的脚手架，简化了 Apache Flink® 和 Spark™ 作业的代码开发流程。集成了一套即插即用的连接器，降低了用户学习和开发的复杂度，让开发更加简单高效。"
       },
       {
+        "id": "streaming",
         "title": "一站式实时计算平台",
         "icon": "lni-shuffle",
         "details": "Apache StreamPark™ 提供了流作业操作管理平台，作为核心能力，提供了涵盖从开发构建、部署上线、状态管理与恢复到操作运维的全生命周期的能力，集等众多功能于一身，是一站式的流计算产品。"
       },
       {
+        "id": "unified",
         "title": "流批融合",
         "icon": "lni-display-alt",
         "details": "Apache Apache StreamPark™ 既支持流计算引擎 Apache Flink®，又支持微批处理引擎 Apache Spark™，真正实现了流批一体化融合，成为业界首个在同一平台上兼容多引擎、多版本的工具。"
       },
       {
+        "id": "ecosystem",
         "title": "丰富的生态组件",
         "icon": "lni-display-alt",
         "details": "Apache StreamPark™ 已经与众多开源工具做了良好的支持和集成，支持包括 Flink®、Spark™、Paimon™、Doris、Flink CDC 等在内的诸多生态开源项目，为用户提供了更灵活的技术选择。"
       },
       {
+        "id": "easy",
         "title": "极简易用",
         "icon": "lni-display-alt",
         "details": "Apache StreamPark™ 致力于降低用户的学习和使用门槛，即使是初学者也能在几分钟内快速上手。这种极简的开发体验，让更多企业和开发者能够轻松驾驭实时计算技术，释放数据价值。"
       },
       {
+        "id": "stable",
         "title": "成熟稳定",
         "icon": "lni-display-alt",
         "details": "Apache StreamPark™ 经历多家企业，大规模使用和生产环境的洗礼，稳定健壮，具备秒级作业状态同步、实时监控以及告警通知能力，有效保障了系统的稳定性，为项目持续发展奠定了坚实基础。"
@@ -97,35 +103,41 @@
     },
     "slogan": {
       "key": "make stream processing easier!",
-      "description":  "Make stream processing easier! Easy-to-use streaming application development framework and operation platform, with Apache Flink® and Apache Spark™ supported, provides full lifecycle support for stream processing applications."
+      "description": "Make stream processing easier! Easy-to-use streaming application development framework and operation platform, with Apache Flink® and Apache Spark™ supported, provides full lifecycle support for stream processing applications."
     },
     "feature": [
       {
+        "id": "development",
         "title": "Development Framework",
         "icon": "lni-layers",
         "details": "Provides a framework to simplify Apache Flink® and Apache Spark™ job development, with plug-and-play connectors that reduce the learning curve and development complexity, improving efficiency."
       },
       {
+        "id": "streaming",
         "title": "Streaming Platform",
-        "icon": "lni-layers",
+        "icon": "lni-shuffle",
         "details": "Provides a streaming job operation and management platform. It covers the entire lifecycle — from development and build, deployment and launch, state management and maintenance."
       },
       {
+        "id": "unified",
         "title": "Unified Batch & Streaming",
-        "icon": "lni-shuffle",
+        "icon": "lni-display-alt",
         "details": "Supports both Apache Flink® and Apache Spark™, enabling seamless integration of streaming and batch processing, with multi-engine and multi-version support on a single platform."
       },
       {
+        "id": "ecosystem",
         "title": "Rich Ecosystem",
-        "icon": "lni-layers",
+        "icon": "lni-display-alt",
         "details": "Integrates with a variety of open-source tools, including Flink®, Spark™, Paimon™, Doris, and Flink CDC, offering users greater flexibility in technology choices."
       },
       {
+        "id": "easy",
         "title": "Easy to use",
-        "icon": "lni-layers",
+        "icon": "lni-display-alt",
         "details": "Apache StreamPark™ is designed to reduce the learning curve and entry barrier. With just one service, it is easy to deploy. Even beginners can begin within minutes."
       },
       {
+        "id": "stable",
         "title": "Mature and Stable",
         "icon": "lni-display-alt",
         "details": "Widely deployed in large-scale production environments, offering second-level job state tracking, real-time monitoring, and alert notifications to ensure stability and support ongoing project growth."
@@ -154,4 +166,4 @@
       "more": "More Partners"
     }
   }
-}    
+}
