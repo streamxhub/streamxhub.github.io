@@ -105,7 +105,7 @@ export default function HomePage() {
             title={t.common.coreFeatures}
             description={t.common.coreFeaturesDesc}
           />
-          <div className='flex-center flex-wrap'>
+          <div className='flex-center flex-wrap xl:w-[1400px] mx-auto'> 
             {t.feature.map((feature, i) => (
               <FeatureCard
                 key={i}
