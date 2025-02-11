@@ -35,24 +35,24 @@ export const featureCardStyle = {
   },
   ecosystem: {
     style: {
-      '--feature-icon-color': 'rgb(255, 193, 7)',
-      '--feature-icon-shadow': 'rgba(255, 193, 7, 0.2)',
+      '--feature-icon-color': 'rgb(255, 125, 0)',
+      '--feature-icon-shadow': 'rgba(255, 125, 0, 0.2)',
       '--animation-delay': '2.4s',
     },
     icon: <EcosystemIcon />,
   },
   easy: {
     style: {
-      '--feature-icon-color': 'rgb(76, 175, 80)',
-      '--feature-icon-shadow': 'rgba(76, 175, 80, 0.2)',
+      '--feature-icon-color': 'rgb(22, 93, 255)',
+      '--feature-icon-shadow': 'rgba(22, 93, 255, 0.2)',
       '--animation-delay': '3s',
     },
     icon: <EasyIcon />,
   },
   stable: {
     style: {
-      '--feature-icon-color': 'rgb(244, 67, 54)',
-      '--feature-icon-shadow': 'rgba(244, 67, 54, 0.2)',
+      '--feature-icon-color': 'rgb(76, 175, 80)',
+      '--feature-icon-shadow': 'rgba(76, 175, 80, 0.2)',
       '--animation-delay': '3.8s',
     },
     icon: <StableIcon />,
