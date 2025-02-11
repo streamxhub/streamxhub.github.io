@@ -50,7 +50,7 @@ export default function HomePage() {
       </div>
 
       <section className='banner-section container mt-16 flex flex-col'>
-        <BannerTitle title={t.slogan.key} subTitle={t.slogan.description} />
+        <BannerTitle subTitle={t.slogan.key} description={t.slogan.description} />
         <div
           className='flex justify-center space-x-6 text-sm'
           data-aos='fade-right'
