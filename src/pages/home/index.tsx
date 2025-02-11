@@ -50,15 +50,15 @@ export default function HomePage() {
       </div>
 
       <section className='banner-section container mt-16 flex flex-col'>
-        <BannerTitle />
+        <BannerTitle title={t.slogan.key} subTitle={t.slogan.description} />
         <div
           className='flex justify-center space-x-6 text-sm'
           data-aos='fade-right'
           data-aos-duration='6000'
           data-aos-offset='100'
         >
-          <GetStartButton>Get Start</GetStartButton>
-          <GitHubButton>View on GitHub</GitHubButton>
+          <GetStartButton>{t.action.start}</GetStartButton>
+          <GitHubButton>{t.action.github}</GitHubButton>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ export default function HomePage() {
 
       <section data-aos='fade-up' className='flex flex-col items-start my-10'>
         <div className='text-base lg:text-xl text-neutral-600 dark:text-neutral-400 mx-auto mb-4'>
-          Start using Apache StreamPark™ in minutes
+          {t.common.startUsingTitle}
         </div>
         <div className='mx-auto px-2'>
           <ShellCommand
@@ -76,9 +76,9 @@ export default function HomePage() {
             className='max-w-[80vw] md:max-w-full'
           />
           <p className='text-xs md:text-sm text-neutral-400 dark:text-neutral-600 mx-auto mt-2 pl-2'>
-            <span>Or install other release version from the&nbsp;</span>
+            <span>{t.common.installOtherVersionDescription}&nbsp;</span>
             <a href='/download' className='text-primary-400'>
-              download page
+              {t.common.downlaodPage}
             </a>
             <span>.</span>
           </p>
