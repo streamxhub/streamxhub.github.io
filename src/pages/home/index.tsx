@@ -58,7 +58,7 @@ export default function HomePage() {
           data-aos-offset='100'
         >
           <GetStartButton>{t.action.start}</GetStartButton>
-          <GitHubButton>{t.action.github}</GitHubButton>
+          <GitHubButton>Github</GitHubButton>
         </div>
       </section>
 
