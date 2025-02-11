@@ -1,7 +1,7 @@
 .feature-card-wrapper {
   position: relative;
   min-width: 387px;
-  max-width: 400px;
+  max-width: 460px;
   padding: 30px 25px;
   background: var(--secondary-bg-color);
 
@@ -14,7 +14,7 @@
   height: 240px;
   background-color: var(--bg-color);
   border-radius: 8px;
-  padding: 15px 10px;
+  padding: 24px;
   padding-top: 36px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   overflow: hidden;
@@ -57,7 +57,8 @@
   justify-content: center;
   font-size: 1.85rem;
   background: var(--feature-icon-color);
-  color: var(--bg-color);
+  /* color: var(--bg-color); */
+  color: #fff;
   border-radius: 50%;
   /* box-shadow: 0 2px 4px 6px var(--feature-icon-shadow); */
   /* background: radial-gradient(50% 50% at 50% 50%, var(--feature-icon-color) 20%, var(--feature-icon-shadow) 100%); */

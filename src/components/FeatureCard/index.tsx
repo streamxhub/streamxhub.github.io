@@ -26,7 +26,7 @@ export default function FeatureCard(props: Props) {
       >
         <div className={styles['feature-icon-wrapper']}>
           <div className={styles['feature-icon']}>
-            <div className='w-8 h-8'>{props.icon}</div>
+            <div className="w-6 h-6">{props.icon}</div>
           </div>
         </div>
         <div className={clsx(styles['feature-body'])}>

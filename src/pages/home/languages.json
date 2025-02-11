@@ -15,22 +15,29 @@
       "newFeatures": "新特性",
       "enhancement": "增强点",
       "bugFixs": "问题修复",
-      "changeLog": "详细变更"
+      "changeLog": "详细变更",
+      "startUsingTitle": "一条命令开启 Apache StreamPark™ 实时计算之旅",
+      "installOtherVersionDescription": "您也可以从这个页面安装其他发行版本：",
+      "downlaodPage": "下载其他版本"
     },
     "slogan": {
-      "key": "让流处理更简单!",
-      "description": "Apache StreamPark™ 是一个流处理应用程序开发管理框架，旨在轻松构建和管理流处理应用程序，提供使用 Apache Flink® 和 Apache Spark™ 编写流处理应用的开发框架和一站式实时计算平台，核心能力包括不限于应用开发、部署、管理、运维、实时数仓等。"
+      "key": "让流处理更简单",
+      "description": "Apache StreamPark™ 是一个简单易用的流处理应用开发框架和一站式云原生实时计算平台，为流作业提供全生命周期管理能力。"
+    },
+    "action": {
+      "start": "快速开始",
+      "github": "在 GitHub 上查看"
     },
     "feature": [
       {
         "id": "development",
         "title": "流应用开发框架",
-        "details": "Apache StreamPark™ 提供流作业开发框架，旨在简化 Apache Flink® 和 Apache Spark™ 作业的开发流程。标准化了作业配置，内置大量快捷的API 和 即插即用的连接器，让用户只用关系核心业务开发，大幅降低流处理学习成本与开发难度。"
+        "details": "Apache StreamPark™ 提供流作业开发框架，旨在简化 Apache Flink® 和 Apache Spark™ 作业的开发流程。低代码实现复杂流处理逻辑，内置大量快捷的API 和 即插即用的连接器，降低流处理学习成本与开发难度。"
       },
       {
         "id": "platform",
         "title": "一站式实时计算平台",
-        "details": "Apache StreamPark™ 提供强大的流作业操作管理平台，覆盖从开发调试、编译构建、部署上线到状态管理与恢复、运维操作的全生命周期。作为核心能力，它简化了流作业的管理流程，提升开发与运维效率，是一站式的流计算解决方案。"
+        "details": "Apache StreamPark™ 提供了一站式的流计算平台，云原生架构设计，无缝对接 Apache Hadoop 和 Kubernetes 生态，核心能力包括不限于应用开发、部署、管理、运维、实时数仓等，极大提升流应用开发与运维管理效率。"
       },
       {
         "id": "unified",
@@ -93,11 +100,18 @@
       "newFeatures": "New Features",
       "enhancement": "Enhancement point",
       "bugFixs": "Bug Fix",
-      "changeLog": "Changelog"
+      "changeLog": "Changelog",
+      "startUsingTitle": "Start using Apache StreamPark™ in minutes",
+      "installOtherVersionDescription": "Or install other release version from the",
+      "downlaodPage": "download page"
     },
     "slogan": {
-      "key": "make stream processing easier!",
-      "description": "Make stream processing easier! Easy-to-use streaming application development framework and operation platform, with Apache Flink® and Apache Spark™ supported, provides full lifecycle support for stream processing applications."
+      "key": "Make stream processing easier",
+      "description": "Apache StreamPark™ is an easy-to-use streaming application development framework and one-stop cloud-native real-time computing platform."
+    },
+    "action": {
+      "start": "Get Start",
+      "github": "View on GitHub"
     },
     "feature": [
       {
