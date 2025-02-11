@@ -409,6 +409,36 @@ const DevelopmentEnvs = () => {
     );
 };
 
+const QuickStartEnvs = () => {
+    return (
+
+        <div>
+            <table className="table-data" style={{width: '100%', display: 'inline-table'}}>
+                <thead>
+                <tr>
+                    <td>Material</td>
+                    <td>Version Requirement</td>
+                    <td>Demo Version (For Reference Only)</td>
+                </tr>
+                </thead>
+                <tbody>
+                {
+                    dataSource.QuickStartEnvs.map((item, i) => (
+                        <tr key={i}>
+                            <td>
+                                <span className="label-info">{item.name}</span>
+                            </td>
+                            <td>{item.version}</td>
+                            <td>{item.other}</td>
+                        </tr>
+                    ))
+                }
+                </tbody>
+            </table>
+        </div>
+
+    );
+};
 
 export {
     ClientOption,
@@ -421,5 +451,6 @@ export {
     ClientFailureRate,
     ClientTables,
     DevelopmentEnvs,
-    DeploymentEnvs
+    DeploymentEnvs,
+    QuickStartEnvs
 };

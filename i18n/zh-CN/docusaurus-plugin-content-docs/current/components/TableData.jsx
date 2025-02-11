@@ -408,6 +408,37 @@ const DevelopmentEnvs = () => {
     );
 };
 
+const QuickStartEnvs = () => {
+    return (
+
+        <div>
+            <table className="table-data" style={{width: '100%', display: 'inline-table'}}>
+                <thead>
+                <tr>
+                    <td>物料</td>
+                    <td>版本要求</td>
+                    <td>演示版本（仅供参考）</td>
+                </tr>
+                </thead>
+                <tbody>
+                {
+                    dataSource.QuickStartEnvs.map((item, i) => (
+                        <tr key={i}>
+                            <td>
+                                <span className="label-info">{item.name}</span>
+                            </td>
+                            <td>{item.version}</td>
+                            <td>{item.other}</td>
+                        </tr>
+                    ))
+                }
+                </tbody>
+            </table>
+        </div>
+
+    );
+};
+
 
 export {
     ClientOption,
@@ -420,5 +451,6 @@ export {
     ClientFailureRate,
     ClientTables,
     DevelopmentEnvs,
-    DeploymentEnvs
+    DeploymentEnvs,
+    QuickStartEnvs
 };

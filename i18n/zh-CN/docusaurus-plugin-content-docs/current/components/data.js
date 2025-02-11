@@ -117,4 +117,11 @@ export default {
         {name: 'Hadoop', version: '2 +', required: false, other: '可选,如果部署flink on yarn 需要配置hadoop环境变量.'},
     ],
 
+    QuickStartEnvs:  [
+        {name: '操作系统', version: 'Linux/MacOS', other: 'MacOS'},
+        {name: 'Java', version: 'JDK version >=1.18',  other: '1.8.0_362'},
+        {name: 'Scala', version: 'Scala version >=2.12', other: '2.12.18'},
+        {name: 'Flink', version: 'Flink version >= 1.12', other: '1.19.0'},
+        {name: 'StreamPark安装包', version: '任意版本', other: '2.1.5'},
+    ],
 }
