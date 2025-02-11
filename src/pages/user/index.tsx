@@ -84,7 +84,7 @@ function BrandCard({ img, aosDelay }: BrandCardProps) {
   }
 
   function handleMouseLevel() {
-    const dir = colorMode === 'dark' ? 'plain' : 'light';
+    const dir = colorMode === 'dark' ? 'dark' : 'light';
     setImgUrl(`/home/user/${dir}/${img.imgUrl}`);
   }
 
