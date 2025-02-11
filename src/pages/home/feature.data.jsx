@@ -58,3 +58,7 @@ export const featureCardStyle = {
     icon: <StableIcon />,
   },
 };
+
+export default function () {
+  return <div></div>;
+}

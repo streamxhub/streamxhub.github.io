@@ -310,3 +310,7 @@ export function UnifiedIcon() {
     </>
   );
 }
+
+export default function () {
+  return <div></div>;
+}
