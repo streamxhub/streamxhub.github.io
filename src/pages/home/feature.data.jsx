@@ -19,16 +19,16 @@ export const featureCardStyle = {
   },
   platform: {
     style: {
-      '--feature-icon-color': 'rgb(173, 103, 247)',
-      '--feature-icon-shadow': 'rgba(173, 103, 247, 0.2)',
+      '--feature-icon-color': 'rgb(119, 216, 128)',
+      '--feature-icon-shadow': 'rgba(119, 216, 128, 0.2)',
       '--animation-delay': '1s',
     },
     icon: <PlatformIcon />,
   },
   unified: {
     style: {
-      '--feature-icon-color': 'rgb(119, 216, 128)',
-      '--feature-icon-shadow': 'rgba(119, 216, 128, 0.2)',
+      '--feature-icon-color': 'rgb(173, 103, 247)',
+      '--feature-icon-shadow': 'rgba(173, 103, 247, 0.2)',
       '--animation-delay': '1.8s',
     },
     icon: <UnifiedIcon />,
