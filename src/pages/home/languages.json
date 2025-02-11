@@ -25,38 +25,32 @@
       {
         "id": "development",
         "title": "流应用开发框架",
-        "icon": "lni-layers",
-        "details": "Apache StreamPark™ 提供了流作业开发的脚手架，简化了 Apache Flink® 和 Spark™ 作业的代码开发流程。集成了一套即插即用的连接器，降低了用户学习和开发的复杂度，让开发更加简单高效。"
+        "details": "Apache StreamPark™ 提供流作业开发框架，旨在简化 Apache Flink® 和 Apache Spark™ 作业的开发流程。标准化了作业配置，内置大量快捷的API 和 即插即用的连接器，让用户只用关系核心业务开发，大幅降低流处理学习成本与开发难度。"
       },
       {
         "id": "streaming",
         "title": "一站式实时计算平台",
-        "icon": "lni-shuffle",
-        "details": "Apache StreamPark™ 提供了流作业操作管理平台，作为核心能力，提供了涵盖从开发构建、部署上线、状态管理与恢复到操作运维的全生命周期的能力，集等众多功能于一身，是一站式的流计算产品。"
+        "details": "Apache StreamPark™ 提供强大的流作业操作管理平台，覆盖从开发调试、编译构建、部署上线到状态管理与恢复、运维操作的全生命周期。作为核心能力，它简化了流作业的管理流程，提升开发与运维效率，是一站式的流计算解决方案。"
       },
       {
         "id": "unified",
         "title": "流批融合",
-        "icon": "lni-display-alt",
-        "details": "Apache Apache StreamPark™ 既支持流计算引擎 Apache Flink®，又支持微批处理引擎 Apache Spark™，真正实现了流批一体化融合，成为业界首个在同一平台上兼容多引擎、多版本的工具。"
+        "details": "Apache StreamPark™ 兼容流计算引擎 Apache Flink® 和微批处理引擎 Apache Spark™，实现真正的流批一体化融合。作为业界首个支持多引擎、多版本的统一平台，它为用户提供灵活高效的流作业开发与管理体验，适用于多种实时计算场景。"
       },
       {
         "id": "ecosystem",
         "title": "丰富的生态组件",
-        "icon": "lni-display-alt",
-        "details": "Apache StreamPark™ 已经与众多开源工具做了良好的支持和集成，支持包括 Flink®、Spark™、Paimon™、Doris、Flink CDC 等在内的诸多生态开源项目，为用户提供了更灵活的技术选择。"
+        "details": "Apache StreamPark™ 已与众多开源工具深度集成，支持包括 Apache Flink®、Apache Spark™、Apache Paimon™、Apache Doris、ML/AI 等在内的多种生态组件。通过广泛的兼容性和灵活的技术选型，为用户提供高效的实时计算解决方案。"
       },
       {
         "id": "easy",
         "title": "极简易用",
-        "icon": "lni-display-alt",
-        "details": "Apache StreamPark™ 致力于降低用户的学习和使用门槛，即使是初学者也能在几分钟内快速上手。这种极简的开发体验，让更多企业和开发者能够轻松驾驭实时计算技术，释放数据价值。"
+        "details": "Apache StreamPark™ 致力于降低用户的学习和使用门槛，提供开箱即用的流作业开发体验。仅需部署一个服务组件，无需繁琐配置，即可快速运行。内置直观的可视化管理界面，简化流作业的开发与运维流程，让即使是初学者也能在几分钟内轻松上手使用。"
       },
       {
         "id": "stable",
         "title": "成熟稳定",
-        "icon": "lni-display-alt",
-        "details": "Apache StreamPark™ 经历多家企业，大规模使用和生产环境的洗礼，稳定健壮，具备秒级作业状态同步、实时监控以及告警通知能力，有效保障了系统的稳定性，为项目持续发展奠定了坚实基础。"
+        "details": "Apache StreamPark™ 经过多家企业在大规模生产环境中的验证，展现出卓越的稳定性和可靠性。具备秒级作业状态同步、实时监控及智能告警通知能力，高效保障系统稳定运行，为业务的持续发展提供坚实支撑。"
       }
     ],
     "development": [
@@ -109,38 +103,32 @@
       {
         "id": "development",
         "title": "Development Framework",
-        "icon": "lni-layers",
-        "details": "Provides a framework to simplify Apache Flink® and Apache Spark™ job development, with plug-and-play connectors that reduce the learning curve and development complexity, improving efficiency."
+        "details": "Provides a framework to simplify Apache Flink® and Apache Spark™ application development, with plug-and-play connectors that reduce the learning curve and development complexity, improving efficiency."
       },
       {
         "id": "streaming",
         "title": "Streaming Platform",
-        "icon": "lni-shuffle",
-        "details": "Provides a streaming job operation and management platform. It covers the entire lifecycle — from development and build, deployment and launch, state management and maintenance."
+        "details": "Provides a streaming applications operation and management platform. It covers the entire lifecycle — from development and build, deployment and launch, state management and maintenance."
       },
       {
         "id": "unified",
         "title": "Unified Batch & Streaming",
-        "icon": "lni-display-alt",
         "details": "Supports both Apache Flink® and Apache Spark™, enabling seamless integration of streaming and batch processing, with multi-engine and multi-version support on a single platform."
       },
       {
         "id": "ecosystem",
         "title": "Rich Ecosystem",
-        "icon": "lni-display-alt",
-        "details": "Integrates with a variety of open-source tools, including Flink®, Spark™, Paimon™, Doris, and Flink CDC, offering users greater flexibility in technology choices."
+        "details": "Integrates with a variety of open-source tools, including Apache Flink®, Apache Spark™, Apache Paimon™, Apache Doris, and ML/AI. Offering users greater flexibility in technology choices."
       },
       {
         "id": "easy",
         "title": "Easy to use",
-        "icon": "lni-display-alt",
-        "details": "Apache StreamPark™ is designed to reduce the learning curve and entry barrier. With just one service, it is easy to deploy. Even beginners can begin within minutes."
+        "details": "Apache StreamPark™ is designed to lower the learning curve and entry barrier. It requires only one service, making deployment easy and allowing even beginners to get started within minutes."
       },
       {
         "id": "stable",
         "title": "Mature and Stable",
-        "icon": "lni-display-alt",
-        "details": "Widely deployed in large-scale production environments, offering second-level job state tracking, real-time monitoring, and alert notifications to ensure stability and support ongoing project growth."
+        "details": "Widely deployed in large-scale production environments, offering second-level application state tracking, real-time monitoring, and alert notifications to ensure stability and support ongoing project growth."
       }
     ],
     "development": [
@@ -162,7 +150,7 @@
     ],
     "users": {
       "title": "Apache StreamPark™ is trust by",
-      "description": "StreamPark™ has been widely used in finance, e-commerce, logistics, Internet, manufacturing and other industries, helping users quickly build and manage stream processing jobs and improve data processing efficiency.",
+      "description": "StreamPark™ has been widely used in finance, e-commerce, logistics, Internet, manufacturing and other industries, helping users quickly build and manage stream processing applications and improve data processing efficiency.",
       "more": "More Partners"
     }
   }

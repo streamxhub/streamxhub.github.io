@@ -14,7 +14,7 @@
   height: 240px;
   background-color: var(--bg-color);
   border-radius: 8px;
-  padding: 30px 24px;
+  padding: 15px 10px;
   padding-top: 36px;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.05));
   overflow: hidden;
