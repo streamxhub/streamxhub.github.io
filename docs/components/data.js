@@ -130,4 +130,9 @@ export default {
         {name: 'Hadoop', version: '2+', required: false, other: 'Optional, required for YARN deployment'},
         {name: 'Kubernetes', version: '1.16+', required: false, other: 'Optional, required for Kubernetes deployment'}
     ],
+
+    dockerInstallationEnvs:  [
+        {name: 'Docker', version: '1.13.1+', required: true, other: 'Docker version must be at least 1.13.1'},
+        {name: 'Docker Compose', version: '1.28.0+', required: true, other: 'Docker Compose version must be at least 1.28.0'},
+    ],
 }

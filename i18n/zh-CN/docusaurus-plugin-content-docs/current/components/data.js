@@ -134,4 +134,9 @@ export default {
         {name: 'Hadoop', version: '2+ ',required: false, other: '非必须，如果部署作业至 Yarn，需要准备 Hadoop 环境'},
         {name: 'Kubernetes', version: '1.16+ ',required: false, other: '非必须，如果部署作业至 Kubernetes，需要准备 Kubernetes 集群'},
     ],
+
+    dockerInstallationEnvs:  [
+        {name: 'Docker', version: '1.13.1+',required: true, other: 'Docker版本不低于1.13.1'},
+        {name: 'Docker Compose', version: '1.28.0+',required: true,  other: 'Docker Compose版本不低于1.28.0'},
+    ],
 }
