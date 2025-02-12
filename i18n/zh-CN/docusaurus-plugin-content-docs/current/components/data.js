@@ -124,4 +124,14 @@ export default {
         {name: 'Flink', version: 'Flink version >= 1.12', other: '1.19.0'},
         {name: 'StreamPark安装包', version: '任意版本', other: '2.1.5'},
     ],
+
+    installationEnvs:  [
+        {name: '操作系统', version: 'Linux/MacOS',required: true, other: '不支持 Windows 系统'},
+        {name: 'Java', version: '1.18+',required: true,  other: 'Java version >=1.8'},
+        {name: 'Scala', version: '2.12+',required: true, other: 'Scala version >=2.12'},
+        {name: '数据库', version: 'MySQL: 5.6+、Postgresql: 9.6+',required: false, other: '默认使用 H2 数据库，支持 MySQL 和 Postgresql'},
+        {name: 'Flink', version: '1.12+ ',required: false, other: 'Flink 版本最低支持1.12'},
+        {name: 'Hadoop', version: '2+ ',required: false, other: '非必须，如果部署作业至 Yarn，需要准备 Hadoop 环境'},
+        {name: 'Kubernetes', version: '1.16+ ',required: false, other: '非必须，如果部署作业至 Kubernetes，需要准备 Kubernetes 集群'},
+    ],
 }

@@ -439,6 +439,46 @@ const QuickStartEnvs = () => {
     );
 };
 
+const InstallationEnvs = () => {
+    return (
+
+        <div>
+            <table className="table-data" style={{width: '100%', display: 'inline-table'}}>
+                <thead>
+                <tr>
+                    <td>环境</td>
+                    <td>版本要求</td>
+                    <td>是否必须</td>
+                    <td>备注</td>
+                </tr>
+                </thead>
+                <tbody>
+                {
+                    dataSource.installationEnvs.map((item, i) => (
+                        <tr key={i}>
+                            <td>
+                                <span className="label-info">{item.name}</span>
+                            </td>
+                            <td>{item.version}</td>
+                            <td>
+                                {
+                                    item.required
+                                        ?
+                                        <span className="icon-toggle-on" title="必须"></span>
+                                        :
+                                        <span className="icon-toggle-off" title="可选"></span>
+                                }
+                            </td>
+                            <td>{item.other}</td>
+                        </tr>
+                    ))
+                }
+                </tbody>
+            </table>
+        </div>
+
+    );
+};
 
 export {
     ClientOption,
@@ -452,5 +492,6 @@ export {
     ClientTables,
     DevelopmentEnvs,
     DeploymentEnvs,
-    QuickStartEnvs
+    QuickStartEnvs,
+    InstallationEnvs
 };
