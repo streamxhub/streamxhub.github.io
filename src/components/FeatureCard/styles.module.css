@@ -1,7 +1,7 @@
 .feature-card-wrapper {
   position: relative;
   min-width: 387px;
-  max-width: 460px;
+  max-width: 440px;
   padding: 30px 25px;
   background: var(--secondary-bg-color);
 

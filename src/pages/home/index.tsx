@@ -91,7 +91,6 @@ export default function HomePage() {
       </div>
 
       <section className='lg:pb-20'>
-        <SectionTitle title={t.users.title} description={''} />
         <BrowserOnly>{() => <TrustedUsers />}</BrowserOnly>
       </section>
 
@@ -101,10 +100,7 @@ export default function HomePage() {
 
       <section className='lg:py-20 bg-[#f7f9fe] dark:bg-[#1a1b1c]'>
         <div className='w-full overflow-hidden'>
-          <SectionTitle
-            title={t.common.coreFeatures}
-            description={t.common.coreFeaturesDesc}
-          />
+          <SectionTitle title={t.common.coreFeatures}/>
           <div className='flex-center flex-wrap xl:w-[1400px] mx-auto'> 
             {t.feature.map((feature, i) => (
               <FeatureCard
@@ -125,8 +121,7 @@ export default function HomePage() {
       <section className='lg:py-20'>
         <div className='w-full overflow-hidden'>
           <SectionTitle
-            title={t.common.development}
-            description={t.common.developmentDesc}
+              title={t.common.development}
           />
           <BrowserOnly>{() => <Development />}</BrowserOnly>
         </div>

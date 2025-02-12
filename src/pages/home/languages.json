@@ -22,7 +22,7 @@
     },
     "slogan": {
       "key": "让流处理更简单",
-      "description": "Apache StreamPark™ 是一个简单易用的流处理应用开发框架和一站式云原生实时计算平台，为流作业提供全生命周期管理能力。"
+      "description": "Apache StreamPark™ 是一款现代化流式应用开发框架与一站式云原生实时计算平台，致力于为开发者提供简洁高效的流处理开发体验和全生命周期管理能力。"
     },
     "action": {
       "start": "快速开始",
@@ -76,12 +76,7 @@
         "title": "部署作业",
         "description": "3. 使用 Apache StreamPark™ 提供的平台来部署和管理你的作业。"
       }
-    ],
-    "users": {
-      "title": "Apache StreamPark™ 赢得了诸多用户的信赖",
-      "description": "Apache StreamPark™ 已经被广泛应用于金融、电商、物流、互联网、制造等行业，帮助用户快速构建和管理流处理作业，提升数据处理效率。",
-      "more": "更多合作伙伴"
-    }
+    ]
   },
   "en": {
     "common": {
@@ -107,11 +102,11 @@
     },
     "slogan": {
       "key": "Make stream processing easier",
-      "description": "Apache StreamPark™ is an easy-to-use streaming application development framework and one-stop cloud-native real-time computing platform."
+      "description": "Apache StreamPark™ is a user-friendly streaming application development framework and one-stop cloud-native real-time computing platform."
     },
     "action": {
       "start": "Get Start",
-      "github": "View on GitHub"
+      "github": "GitHub"
     },
     "feature": [
       {
@@ -121,13 +116,13 @@
       },
       {
         "id": "platform",
-        "title": "Streaming Platform",
-        "details": "Provides a streaming applications operation and management platform. It covers the entire lifecycle — from development and build, deployment and launch, state management and maintenance."
+        "title": "Real-time Computing Platform",
+        "details": "Provides a one-stop streaming computation platform, with core functionalities including but not limited to application development, deployment, management, operation, and real-time data warehousing, etc."
       },
       {
         "id": "unified",
-        "title": "Unified Batch & Streaming",
-        "details": "Supports both Apache Flink® and Apache Spark™, enabling seamless integration of streaming and batch processing, with multi-engine and multi-version support on a single platform."
+        "title": "Supports Batch & Streaming",
+        "details": "Supports both Apache Flink® and Apache Spark™, enabling seamless integration of streaming and batch processing, with multi-engine/multi-version support on a single platform."
       },
       {
         "id": "ecosystem",
@@ -161,11 +156,6 @@
         "title": "Deploy Application",
         "description": "3. Deploy and manage your applications using StreamPark™"
       }
-    ],
-    "users": {
-      "title": "Apache StreamPark™ is trust by",
-      "description": "StreamPark™ has been widely used in finance, e-commerce, logistics, Internet, manufacturing and other industries, helping users quickly build and manage stream processing applications and improve data processing efficiency.",
-      "more": "More Partners"
-    }
+    ]
   }
 }

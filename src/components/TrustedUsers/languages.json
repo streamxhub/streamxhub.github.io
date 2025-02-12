@@ -2,15 +2,13 @@
   "zh-CN": {
     "users": {
       "title": "Apache StreamPark™ 赢得了诸多用户的信赖",
-      "description": "Apache StreamPark™ 已经被广泛应用于金融、电商、物流、互联网、制造等行业，帮助用户快速构建和管理流处理作业，提升数据处理效率。",
-      "more": "更多合作伙伴"
+      "more": "更多用户"
     }
   },
   "en": {
     "users": {
       "title": "Apache StreamPark™ is trust by",
-      "description": "StreamPark™ has been widely used in finance, e-commerce, logistics, Internet, manufacturing and other industries, helping users quickly build and manage stream processing jobs and improve data processing efficiency.",
-      "more": "More Partners"
+      "more": "More Users"
     }
   }
 }
