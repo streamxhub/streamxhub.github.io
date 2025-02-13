@@ -112,7 +112,7 @@ const config = {
         },
         items: [
           {
-            to: '/docs/get-started/intro',
+            to: '/docs/get-started/introduction',
             label: 'Docs',
             position: "right",
             activeBaseRegex: `/docs`,
